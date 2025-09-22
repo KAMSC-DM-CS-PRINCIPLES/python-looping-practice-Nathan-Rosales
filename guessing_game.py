@@ -14,7 +14,7 @@ def guessing_game():
             print("too low")
         guess = int(input("Enter guess: "))
 
-    print("Correct")
+    print("Congratulations! You guessed it!")
 
 
 
