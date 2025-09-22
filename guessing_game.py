@@ -9,9 +9,9 @@ def guessing_game():
     guess = int(input("Enter guess: "))
     while(guess != target):
         if guess > target:
-            print("too high")
+            print("Too high! Try again.")
         else:
-            print("too low")
+            print("Too low! Try again.")
         guess = int(input("Enter guess: "))
 
     print("Congratulations! You guessed it!")
