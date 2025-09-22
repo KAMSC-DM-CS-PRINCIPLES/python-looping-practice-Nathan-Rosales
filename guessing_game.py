@@ -6,13 +6,13 @@ def guessing_game():
     # HINT: Print "Too low! Try again." for low guesses
     # HINT: Print "Too high! Try again." for high guesses
     target = 15
-    guess = input("Enter guess: ")
+    guess = int(input("Enter guess: "))
     while(guess != target):
         if guess > target:
             print("too high")
         else:
             print("too low")
-        guess = input("Enter a guess: ")
+        guess = int(input("Enter guess: "))
 
     print("Correct")
 
