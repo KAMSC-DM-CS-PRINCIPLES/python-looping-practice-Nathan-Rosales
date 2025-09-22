@@ -7,7 +7,7 @@ def reverse_string(text):
     # HINT: NO SLICING ALLOWED - must use loops only
     nText = ""
     for i in range(len(text)-1, -1, -1):
-        nText.append(text.get(i))
+        nText += text.get(i)
 
     return nText
 
